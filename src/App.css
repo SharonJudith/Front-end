@@ -9,12 +9,18 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    position: absolute;
+    align: center;
+    width: 1000px;
+    height: 967px;
+    left: 100px;
+    top: 185px;
+    border-radius: 80px;
+    background-color: #F5F5F5;
   }
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
